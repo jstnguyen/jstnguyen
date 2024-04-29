@@ -154,6 +154,9 @@ li:hover {
 
 /* Hide content on screens smaller than 600px (typical mobile devices) */
 @media (max-width: 600px) {
+  .desktop-message {
+    display: block;
+  }
   /* Selectors targeting elements to hide */
   .hero,
   .about,
@@ -163,13 +166,10 @@ li:hover {
     /* Hide selected elements */
     display: none;
   }
-  .desktop-message {
-    display: block;
-  }
 }
 
-/* Hide desktop message on screens wider than 600px */
-@media (min-width: 500px) {
+/* Hide desktop message on screens wider than 400px */
+@media (min-width: 400px) {
   .desktop-message {
     display: none;
   }
