@@ -159,6 +159,19 @@ li:hover {
   }
 }
 
+/* Hide content on screens smaller than 600px (typical mobile devices) */
+@media (max-width: 600px) {
+  /* Selectors targeting elements to hide */
+  .hero,
+  .about,
+  canvas,
+  .socialIcons,
+  .wrapper {
+    /* Hide selected elements */
+    display: none;
+  }
+}
+
 /* SOCIAL ICONS */
 .socialIcons {
   position: absolute;
