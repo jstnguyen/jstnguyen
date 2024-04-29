@@ -152,18 +152,17 @@ li:hover {
   transition: all 0.5s ease;
 }
 
-/* Hide content on screens smaller than 600px (typical mobile devices) */
-@media (max-width: 600px) {
-  .desktop-message {
-    display: block;
-    text-align: center;
+/* Hide content on screens wider than 600px (typical mobile devices) */
+@media (min-width: 601px) {
+  .mobile-only {
+    display: none;
   }
 }
 
-/* Hide desktop message on screens wider than 400px */
-@media (min-width: 600px) {
-  .desktop-message {
-    display: none;
+/* Show content only on screens narrower than 600px (typical mobile devices) */
+@media (max-width: 600px) {
+  .mobile-only {
+    display: block;
   }
 }
 
