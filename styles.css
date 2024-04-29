@@ -164,9 +164,14 @@ li:hover {
   .mobile-only {
     display: block;
   }
+  .hero,
+  .about,
+  .socialIcons {
+    display: none;
+  }
 }
 
-.desktop-message {
+.mobile-only {
   text-align: center;
   padding: 20px;
   color: white;
