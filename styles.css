@@ -165,6 +165,19 @@ li:hover {
   }
 }
 
+/* Hide desktop message on screens wider than 600px */
+@media (min-width: 601px) {
+  .desktop-message {
+    display: none;
+  }
+}
+
+.desktop-message {
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
 /* SOCIAL ICONS */
 .socialIcons {
   position: absolute;
