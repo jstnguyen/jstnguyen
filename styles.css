@@ -155,6 +155,7 @@ li:hover {
 /* Hide content on screens smaller than 600px (typical mobile devices) */
 @media (max-width: 600px) {
   .desktop-message {
+    text-align: center;
     display: block;
   }
   /* Selectors targeting elements to hide */
