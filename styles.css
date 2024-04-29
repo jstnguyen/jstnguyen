@@ -164,6 +164,9 @@ li:hover {
   .mobile-only {
     display: block;
   }
+}
+
+@media (max-width: 600px) {
   .hero,
   .about,
   .socialIcons {
