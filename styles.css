@@ -4,6 +4,7 @@ body {
   padding: 0;
   background-color: #05A;
   font-family: 'Inter','Josefin Sans',sans-serif;
+  overflow: hidden;
 }
 
 /*NODE CANVAS*/
